@@ -1,0 +1,28 @@
+@import 'src/stylesheets/variables';
+@import 'src/stylesheets/colors';
+
+.header {
+    background-color: $cranberry;
+    height: 20px;
+}
+
+.home-container {
+    text-align: center;
+    color: $white;
+    min-height: 500px;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;
+    background-color: $blackGrey;
+}
+
+.copyright{
+    display: flex;
+    text-align: center;
+    color: $white;
+    font-size: 1em;
+}
