@@ -2,27 +2,31 @@
 @import 'src/stylesheets/colors';
 
 .header {
-    background-color: $cranberry;
+    background-color: $teal;
     height: 20px;
 }
 
 .home-container {
-    text-align: center;
-    color: $white;
+    //text-align: center;
+    //color: $white;
     min-height: 500px;
+    margin-top:20px;
 }
 
 footer {
-    height: 100px;
+    height: 50px;
     display: flex;
     justify-content: center; /* center items vertically, in this case */
     align-items: center;
-    background-color: $blackGrey;
+    background-color: $athensGrey;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
 
 .copyright{
     display: flex;
     text-align: center;
-    color: $white;
+    //color: $athensGrey;
     font-size: 1em;
 }

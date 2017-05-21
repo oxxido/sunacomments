@@ -1,7 +1,7 @@
 // Import angular
-import 'angular';// from 'angular';
+import 'angular';
 
-//import uiRouter from 'angular-ui-router';
+import 'angular-ui-bootstrap';
 import 'angular-ui-router';
 
 import routes from './routes';
@@ -16,7 +16,7 @@ import HomeModule from './components/home/home.module';
 import Components from './components/components.module';
 
 angular.module('oxxido', [
-    //'ngRoute',
+    'ui.bootstrap',
     'ui.router',
     HomeModule.name,
     Components.name

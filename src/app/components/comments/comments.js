@@ -23,13 +23,21 @@ function commentsController() {
 
     ctrl.$onInit = function() {
         ctrl.isEditing = false;
+        ctrl.newComment = '';
 
         // methods
-        ctrl.getComments = getComments;
+        ctrl.postComment = postComment;
     };
 
-    function getComments() {
-        return true;
+
+    function postComment() {
+        ctrl.comments.push({
+            name: 'Visitor',
+            comment: ctrl.newComment,
+            avatar: 'http://placehold.it/50x50',
+            date: new Date(),
+        });
+        ctrl.newComment = '';
     }
 
 

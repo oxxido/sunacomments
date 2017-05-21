@@ -1,0 +1,14 @@
+<li class="media">
+    <a href="#" class="pull-left">
+        <img ng-src="{{ $ctrl.comment.avatar }}" alt="" class="img-circle">
+    </a>
+    <div class="media-body">
+        <span class="text-muted pull-right">
+            <small class="text-muted">{{ $ctrl.comment.date | date }}</small>
+        </span>
+        <strong class="text-success">@{{ $ctrl.comment.name }}</strong>
+        <p>
+            {{ $ctrl.comment.comment }}.
+        </p>
+    </div>
+</li>
